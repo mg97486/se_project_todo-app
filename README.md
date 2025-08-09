@@ -1,14 +1,14 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This simple project creates a simple Todo list where you can create a task and give it a Due date.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+In this project, I created a components folder and added several other files like Todo.js, PopupWithForm.js, Popup.js, and TodoCounter.js. This is is create better functionallity and to have more organized and cleaner code.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+I imorted and exported in between files so that way everything wasn't all together in index.js. doing this helped improve the functionallity of the Todo app.
 
 ## Deployment
 

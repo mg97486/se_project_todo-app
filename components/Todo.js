@@ -1,7 +1,7 @@
 class Todo {
-  constructor(data, selector, handleCheck) {
+  constructor(data, templateSelector, handleCheck) {
     this._data = data;
-    this._templateElement = document.querySelector(selector);
+    this._templateElement = document.querySelector(templateSelector);
     this._handleCheck = handleCheck;
   }
 
@@ -17,7 +17,7 @@ class Todo {
     });
 
     this._todoDeleteBtn.addEventListener("click", () => {
-      if (this._dataCompleted) {
+      if (this._data.Completed) {
         this._handleCheck({ type: "completed", increment: false });
       }
 
