@@ -17,7 +17,7 @@ class Todo {
     });
 
     this._todoDeleteBtn.addEventListener("click", () => {
-      if (this._data.Completed) {
+      if (this._data.completed) {
         this._handleCheck({ type: "completed", increment: false });
       }
 
